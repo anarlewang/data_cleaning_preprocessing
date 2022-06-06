@@ -1,1 +1,6 @@
-placeholder
+Code executable on Linux level.
+Data file 'Example_Data.xlsx' has to exist in the same directory for the program to run.
+
+Linux command: 
+bash data_cleaning_preprocess_exe.sh
+
