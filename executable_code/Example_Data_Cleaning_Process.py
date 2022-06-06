@@ -165,7 +165,7 @@ def clean_preprocess():
     in_db_not_file = compare[(compare.data_source_data.isnull())&(~compare.data_source_db.isnull())][col_names[:-1]+['Value_data','Value_db']]
     in_db_not_file['ERROR Type'] = 'Not_in_File'
     Example_Compare = pd.concat([Example_Compare,in_db_not_file])
-    print("Print out problematic data:"
+    print("Print out problematic data:")
     print(Example_Compare)
     # Checkpoint 3: Save the records with errors
     print("Comparison done.")
